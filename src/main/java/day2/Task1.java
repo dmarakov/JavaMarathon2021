@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Сколько этажей?");
         int num = in.nextInt();
         if (num >= 1 && num <= 4) {
             System.out.println("Малоэтажный дом");
@@ -14,7 +13,7 @@ public class Task1 {
         } else if (num >= 9) {
             System.out.println("Многоэтажный дом");
         } else if (num <= 0) {
-            System.out.println("Ошибка воода");
+            System.out.println("Ошибка ввода");
         }
     }
 }
