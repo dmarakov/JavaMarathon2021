@@ -5,13 +5,13 @@ import java.util.Random;
 public class Task3 {
     public static void main(String[] args) {
         Random rand = new Random();
-        int[][] matrice = new int[4][2];
+        int[][] matrice = new int[12][8];
         int maxSum = 0;
         int rowMax = 0;
         for (int i = 0; i < matrice.length; i++) {
             int sum = 0;
             for (int j = 0; j < matrice[i].length; j++) {
-                matrice[i][j] = rand.nextInt(20);
+                matrice[i][j] = rand.nextInt(50);
                 System.out.print(matrice[i][j] + " ");
                 sum = sum + matrice[i][j];
                 if (sum > maxSum) {
