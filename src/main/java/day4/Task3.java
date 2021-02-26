@@ -19,7 +19,6 @@ public class Task3 {
                     rowMax = i;
                 }
 
-
             }
             System.out.println("Сумма = " + sum);
 

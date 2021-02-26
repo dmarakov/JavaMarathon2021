@@ -36,6 +36,5 @@ public class Task1 {
         System.out.println("Количество нечетных чисел: " + w);
         System.out.println("Сумма всех элементов массива: " + sum);
 
-
     }
 }

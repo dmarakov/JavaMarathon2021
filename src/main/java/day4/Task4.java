@@ -27,6 +27,7 @@ public class Task4 {
         System.out.println("Максимальная сумма " +maxSum);
         System.out.println("Индекс "+maxRang);
 
+
     }
 
 }

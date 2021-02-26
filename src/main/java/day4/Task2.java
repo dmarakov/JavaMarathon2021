@@ -12,6 +12,7 @@ public class Task2 {
         int minValue = 10000;
         int zeroSum = 0;
 
+
         for (int x : array) {
             array[x] = rand.nextInt(10000);
 
