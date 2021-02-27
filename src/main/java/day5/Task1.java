@@ -9,8 +9,6 @@ public class Task1 {
         System.out.println(ford.getColor());
         System.out.println(ford.getModel());
         System.out.println(ford.getYear());
-
-
     }
 }
 
@@ -29,7 +27,6 @@ class Car{
     public String getColor(){
         return color;
     }
-
     public void setModel(String setModel){
         if(setModel.isEmpty()){
             System.out.println("Вы ввели пустое поле");
@@ -40,7 +37,6 @@ class Car{
     public String getModel(){
         return model;
     }
-
     public void setYear(int setYear){
         if(setYear < 0){
             System.out.println("Год должен быть больше нуля");
@@ -51,5 +47,4 @@ class Car{
     public int getYear(){
         return year;
     }
-
 }
