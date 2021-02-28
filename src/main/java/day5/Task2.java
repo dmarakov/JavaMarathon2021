@@ -10,9 +10,9 @@ public class Task2 {
 }
 
 class Motorbike {
-    private String color;
-    private String model;
-    private int year;
+     String color;
+     String model;
+     int year;
     public Motorbike(String color, String model, int year){
         this.color=color;
         this.model=model;
