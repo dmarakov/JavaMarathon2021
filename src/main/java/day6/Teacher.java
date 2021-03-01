@@ -10,7 +10,7 @@ public class Teacher {
         this.subject = subject;
     }
 
-    public void evaluate(String studentName){
+    public void evaluate(Student student  ){
         Random rand = new Random();
         int randomValue = rand.nextInt(4+2);
         String mark ="";
@@ -24,12 +24,12 @@ public class Teacher {
             case 4 :
                  mark = "неудовлетворитель";
                 break;
-            case 5 :
+            default :
                  mark = "неудовлетворитель";
                 break;
         }
 
-        System.out.println("Преподаватель "+ name + " оценил студента с именем " + studentName + " по предмету "+ subject + " на оценку "+mark);
+        System.out.println("Преподаватель "+ this.name + " оценил студента с именем " + student.getName() + " по предмету "+ subject + " на оценку "+mark);
 
     }
 

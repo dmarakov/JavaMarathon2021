@@ -1,14 +1,16 @@
 package day6;
 
 class Motorbike {
-     String color;
-     String model;
-     int year;
+     private String color;
+     private String model;
+     private int year;
+
     public Motorbike(String color, String model, int year){
         this.color=color;
         this.model=model;
         this.year=year;
     }
+
     public String getColor(){
         return color;}
 
@@ -17,10 +19,11 @@ class Motorbike {
 
     public int getYear(){
         return year;}
+
     void info(){
         System.out.println("Это мотоцикл");
     }
     int yearDifference(int inputYear){
-        return inputYear - year;
+        return Math.abs(inputYear - year);
     }
 }
