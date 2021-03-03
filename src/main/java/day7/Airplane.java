@@ -64,7 +64,10 @@ public class Airplane {
 public static void compareAirplanes(Airplane plane1, Airplane plane2){
         if(plane1.getLenght()>plane2.getLenght()){
             System.out.println("Первый самолет длиннее");
-        }else{
+        }if (plane1.getLenght() == plane2.getLenght()){
+        System.out.println("Длины равны");
+    }
+        else{
             System.out.println("Второй самолет длинее");
         }
 

@@ -5,7 +5,7 @@ import java.util.Random;
 public class Task2 {
     public static void main(String[] args) {
         Random random = new Random();
-        int randomStamina = random.nextInt(10+90);
+        int randomStamina = random.nextInt(10)+90;
         Player p1 = new Player(randomStamina);
         Player p2 = new Player(randomStamina);
         Player p3 = new Player(randomStamina);
