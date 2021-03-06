@@ -23,5 +23,4 @@ public class Warehouse {
     public String toString(){
         return "Собранных заказов " + getCountPickedOrders() +" " + "Доставленых заказов " + getCountDeliveredOrders();
     }
-
 }

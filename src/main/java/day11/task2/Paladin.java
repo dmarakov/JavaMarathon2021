@@ -11,8 +11,6 @@ private int healValueTeammate;
         this.magicDef = 0.2;
         this.healValueHimself = 25;
         this.healValueTeammate = 10;
-
-
     }
 
     @Override
@@ -30,9 +28,8 @@ private int healValueTeammate;
             double tempHeal = hero.getHealth() + this.healValueTeammate;
             hero.setHealth(tempHeal);
         }else  hero.setHealth(100);
-
-
     }
+
     public String toString(){
         return "Paladin{health="+health+"}";
     }

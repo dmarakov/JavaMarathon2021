@@ -10,8 +10,8 @@ public class Task1 {
         System.out.println(warehouse);
         System.out.println(picker);
         System.out.println(courier);
-
     }
+
     static void businessProcess(Worker worker){
         for (int i = 0; i < 10000; i++) {
             worker.doWork();

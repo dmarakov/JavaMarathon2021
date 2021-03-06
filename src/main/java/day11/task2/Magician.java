@@ -12,9 +12,8 @@ public class Magician extends Hero implements MagicAttack {
     public void magicalAttack(Hero hero) {
         double tempHeal = (hero.getHealth() - (this.magicAttack - (this.magicAttack * hero.getMagicDef())));
         hero.setHealth(tempHeal);
-
-
     }
+
     public String toString(){
         return "Magician{health="+health+"}";
     }

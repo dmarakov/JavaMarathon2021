@@ -4,7 +4,6 @@ public class Shaman extends Hero implements MagicAttack, Healer {
    private int healValueHimself;
     private int healValueTeammate;
 
-
     public Shaman() {
         this.health = 100;
         this.physAttack = 10;
@@ -38,9 +37,8 @@ public class Shaman extends Hero implements MagicAttack, Healer {
             double tempHeal = hero.getHealth() + this.healValueTeammate;
             hero.setHealth(tempHeal);
         }else  hero.setHealth(100);
-
-
     }
+
     public String toString(){
         return "Shaman{health="+health+"}";
     }

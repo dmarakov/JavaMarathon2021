@@ -6,7 +6,6 @@ public class Courier implements Worker {
     private Warehouse warehouse;
     private int i = 0;
 
-
     public int getSalary() {
         return salary;
     }
