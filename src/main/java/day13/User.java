@@ -7,7 +7,7 @@ public class User {
     private String username;
     List<User> subscriptions;
 
-    public User(String username, List<User> subscriptions) {
+    public User(String username) {
         this.username = username;
         this.subscriptions = new ArrayList<>();
     }
@@ -38,7 +38,10 @@ public class User {
             return true;
         }
             return false;
-
-
     }
+
+    public void sendMessage(User user, String text){
+        MessageDatabase.addNewMessage(this,user,text);
+    }
+
 }
